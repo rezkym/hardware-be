@@ -23,9 +23,9 @@
 
 // Definisi Pin
 #define BUZZER_PIN 13
-#define LED_GREEN 16
-#define LED_RED 17
-#define LED_YELLOW 5
+#define LED_GREEN 4
+#define LED_RED 2
+#define LED_YELLOW 15
 
 // Konfigurasi OLED
 #define SCREEN_WIDTH 128
@@ -34,8 +34,8 @@
 #define SCREEN_ADDRESS 0x3C
 
 // RFID Pin Configuration
-#define RST_PIN 22
-#define SS_PIN 21
+#define RST_PIN 33
+#define SS_PIN 5
 
 // Buffer Configuration
 #define MAX_BUFFER_SIZE 10 // Maksimum data yang bisa disimpan di buffer
